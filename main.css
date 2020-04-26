@@ -1,3 +1,7 @@
+body {
+    background-color: #FC5E55;
+}
+
 .container {
     width: 1024px;
     min-height: 300px;
@@ -6,8 +10,19 @@
 }
 
 header {
-    background-color: greenyellow;
-    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header nav li {
+    display: flex;
+}
+
+header nav li ul{
+    margin: 8px;
 }
 
 main {
