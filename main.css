@@ -19,6 +19,7 @@ main {
 .cards {
     background-color: yellow;
     min-height: 300px;
+    display: flex;
 }
 
 .card1 {
