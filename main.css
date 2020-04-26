@@ -1,6 +1,5 @@
 .container {
     width: 1024px;
-    background-color: aquamarine;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -12,8 +11,17 @@ header {
 }
 
 main {
-    background-color: green;
     min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.mainbox1 {
+    flex: 2;
+}
+
+.mainbox2 {
+    flex: 1;
 }
 
 .cards {
