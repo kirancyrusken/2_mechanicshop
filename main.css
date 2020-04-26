@@ -20,3 +20,21 @@ main {
     background-color: yellow;
     min-height: 300px;
 }
+
+.card1 {
+    background-color: rgb(228, 27, 27);
+    min-height: 250px;
+    width: 33.3%;
+}
+
+.card2 {
+    background-color: rgb(228, 27, 168);;
+    min-height: 250px;
+    width: 33.3%;
+}
+
+.card3 {
+    background-color: rgb(119, 52, 52);;
+    min-height: 250px;
+    width: 33.3%;
+}
