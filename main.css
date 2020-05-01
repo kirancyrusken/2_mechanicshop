@@ -5,6 +5,9 @@ html {
 body {
     /*background-color: #FC5E55;*/
     background-image: linear-gradient(#FC5E55,#FA4083);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
 }
 
 .container {
@@ -67,4 +70,9 @@ main {
     background-color: rgb(119, 52, 52);;
     min-height: 250px;
     width: 30%;
+}
+
+H1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.25rem;
 }
