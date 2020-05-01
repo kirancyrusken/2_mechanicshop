@@ -41,6 +41,7 @@ main {
 
 .mainbox1 {
     flex: 2;
+    padding-right: 100px;
 }
 
 .mainbox2 {
@@ -72,7 +73,13 @@ main {
     width: 30%;
 }
 
-H1 {
+h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3.25rem;
+    margin-bottom: 1.125rem;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
 }
