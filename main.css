@@ -60,6 +60,11 @@ main {
     font-size: 7rem;
 }
 
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
 .card1 {
     background-image: url(images/image-background-card1.jpg);
     background-size: cover;
