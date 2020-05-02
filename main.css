@@ -49,26 +49,28 @@ main {
 }
 
 .cards {
-    background-color: yellow;
     min-height: 300px;
     display: flex;
     justify-content: space-between;
 }
 
 .card1 {
-    background-color: rgb(228, 27, 27);
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
     min-height: 250px;
     width: 30%;
 }
 
 .card2 {
-    background-color: rgb(228, 27, 168);;
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
     min-height: 250px;
     width: 30%;
 }
 
 .card3 {
-    background-color: rgb(119, 52, 52);;
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
     min-height: 250px;
     width: 30%;
 }
