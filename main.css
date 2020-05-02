@@ -55,6 +55,11 @@ main {
     text-align: center;
 }
 
+.material-icons {
+    margin-top: 20px;
+    font-size: 7rem;
+}
+
 .card1 {
     background-image: url(images/image-background-card1.jpg);
     background-size: cover;
