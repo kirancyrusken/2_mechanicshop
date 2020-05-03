@@ -55,7 +55,7 @@ main {
     padding: 10px 25px;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
-    margin-top: 20px;
+    border-radius: 5px 7px 7px 7px;
 }
 
 .cards {
