@@ -1,7 +1,3 @@
-html {
-    height: 100%;
-}
-
 body {
     /*background-color: #FC5E55;*/
     background-image: linear-gradient(#FC5E55,#FA4083);
@@ -136,4 +132,18 @@ p {
     font-size: 0.85rem;
     line-height: 1.2rem;
     margin-top: 10px;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tcards {
+    width: 47%;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin-top: 50px;
 }
