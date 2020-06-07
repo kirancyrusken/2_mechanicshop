@@ -153,3 +153,13 @@ p {
     border: 1px solid white;
     margin-top: 50px;
 }
+
+/* .tcards :last-child {
+    font-size: 0.9rem;
+    padding-left: 20px;
+} */
+
+.tcards p:last-of-type {
+    font-size: 0.9rem;
+    padding-left: 20px;
+}
