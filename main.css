@@ -45,7 +45,7 @@ main {
     flex: 1;
 }
 
-.mainbutton, .navbutton{
+.mainbutton, .navbutton {
     display: inline-block;
     padding: 10px 25px;
     font-family: 'Playfair Display', serif;
@@ -64,10 +64,45 @@ main {
     transition-duration: 500ms;
 }
 
-.navbutton {
-    color: white;  
+.navbutton {    
     border: 1px solid white;
+    position: relative;
     /*border-style: solid;*/
+}
+
+.navbutton a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-sub-menu {
+    display: none;
+    position: absolute;
+    padding-top: 14px;
+    margin-left: -27px;
+    z-index: 99;
+}
+
+.nav-sub-menu-item {
+    background-color: gainsboro; 
+    color: #FC5E55;   
+    padding: 10px 25px;  
+}
+
+.nav-sub-menu-item:hover {
+    background-color: #FC5E55;
+    color: white;  
+    padding: 10px 25px;  
+}
+
+.nav-sub-menu-item a {
+    background-color: inherit;
+    color: inherit;
+    font-size: 0.85em;
+}
+
+.navbutton:hover .nav-sub-menu {
+    display: block;
 }
 
 .cards {
