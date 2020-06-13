@@ -5,6 +5,7 @@ body {
     /*background-color: #FC5E55;*/
     background-image: url(images/image-lion-background.png);
     background-repeat: no-repeat;
+    background-position: top center;
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1.125rem;
