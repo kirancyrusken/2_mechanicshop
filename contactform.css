@@ -1,0 +1,19 @@
+.inputwrapper {
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 5px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+select, input[type=date], inpyt[type=color] {
+    padding: 5px;
+}
+
+.newLine {
+    display: block;
+    margin-bottom: 5px;
+}
