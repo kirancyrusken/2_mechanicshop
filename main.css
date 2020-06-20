@@ -203,3 +203,7 @@ p {
     font-size: 0.9rem;
     padding-left: 20px;
 }
+
+.inputwrapper {
+    margin-bottom: 15px;
+}
